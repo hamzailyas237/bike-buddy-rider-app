@@ -143,7 +143,7 @@ const Profile = () => {
               ]}>
               <Text style={[CStyles.fs5, CStyles.textWhite]}>Speed Limit</Text>
               <Text style={[CStyles.fs2, CStyles.textWhite, CStyles.textBold]}>
-                15m/s
+                60 km/h
               </Text>
             </View>
             <View
@@ -160,7 +160,7 @@ const Profile = () => {
                 Distance Limit
               </Text>
               <Text style={[CStyles.fs2, CStyles.textWhite, CStyles.textBold]}>
-                1km
+                700 m
               </Text>
             </View>
           </View>

@@ -131,7 +131,7 @@ const Map = ({navigation}) => {
       !homeLocation?.longitude ||
       !riderLocation?.latitude ||
       !riderLocation?.longitude ? (
-        <AppLoader/>
+        <AppLoader />
       ) : (
         <View style={{flex: 1, justifyContent: 'center', alignItems: 'center'}}>
           {/* <TouchableOpacity
@@ -167,7 +167,7 @@ const Map = ({navigation}) => {
                 latitude: riderLocation.latitude,
                 longitude: riderLocation.longitude,
               }}>
-              <Icon name="my-location" size={30} color="black" />
+              <Icon name="two-wheeler" size={40} color="black" />
             </Marker>
 
             <Marker
@@ -175,7 +175,7 @@ const Map = ({navigation}) => {
                 latitude: homeLocation.latitude,
                 longitude: homeLocation.longitude,
               }}>
-              <Icon name="home" size={30} color="black" />
+              <Icon name="home" size={40} color="black" />
             </Marker>
             <Polyline
               coordinates={[homeLocation, riderLocation]}
